@@ -44,7 +44,9 @@
   </head>
   <body>
     <div id="project" class="notRunYet"></div>
-
+    <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+    <script>eruda.init();</script>
+<!-- Eruda is for when I have to do debugging -->
     <script type="module">
       import project from "./index.js";
 
@@ -57,8 +59,6 @@
         setTimeout(() => {
           container.classList.remove("notRunYet");
         }, 250);
-
-        project.greenFlag();
 
         // Let CSS resize the container instead of forcing to 480x360
         container.style.width = '';
