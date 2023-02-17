@@ -5,7 +5,7 @@ import {
   Costume,
   Color,
   Sound
-} from "https://unpkg.com/leopard@1.4.1/dist/index.esm.js";
+} from "/index.esm.js";
 
 export default class NewColorlens extends Sprite {
   constructor(...args) {

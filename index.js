@@ -1,4 +1,4 @@
-import { Project } from "https://unpkg.com/leopard@1.4.1/dist/index.esm.js";
+import { Project } from "/index.esm.js";
 
 import Stage from "./Stage/Stage.js";
 import Ground from "./Ground/Ground.js";
